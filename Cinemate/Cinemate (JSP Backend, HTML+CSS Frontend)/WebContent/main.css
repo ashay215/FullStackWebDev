@@ -1,0 +1,104 @@
+@CHARSET "ISO-8859-1";
+
+body{
+	background-color:#A1BCE5;
+	text-align: center;
+}
+
+#toptitle {
+	text-align: center;
+	font-family:verdana;
+	font-style: italic;
+	font-style:bold;
+	font-size: 300%;
+	color: #3A5288;
+	text-shadow: 3px 3px rgba(0,0,0,0.3);
+}
+
+#toptext {
+	text-align: center;
+	font-family: Times New Roman;
+	font-size: 100%;
+	color: white;
+	font-style: normal;
+}
+
+#middle {
+	background-color: #2E5C9D;
+	height: 50%;
+	width : 100%;
+	text-align:center;
+}
+
+#centerbox {
+	background-color: #4973B0;
+	padding: 3%;
+	margin: 80px;
+	width: 30%;
+	margin-left: auto ;
+  	margin-right: auto ;
+  	color: white;
+}
+
+input[type="text"] {
+	width: 100%;
+}
+
+input[type="submit"]{
+	padding:5px; 
+    border:2px;     
+    border-radius: 5px;
+}
+
+a{
+	color:#ffffff;
+	text-decoration:none
+}
+a:hover {
+    color: #2E5C9D;
+}
+
+.titlehover a{
+	color: #3A5288;
+}
+.titlehover a:hover{
+	color:white;
+}
+
+.img-circle {
+    border-radius: 50%;
+    width: 10%;
+}
+
+#profiletop {
+	background-color: #2E5C9D;
+	text-align: center;
+	color:white;
+}
+
+#profilemiddle{
+	text-align:center;
+	color:white;
+	font-size:20pt;
+}
+
+#follows{
+	text-align:center;
+	width:100%;
+}
+
+#scrollbox {
+	background-color:#A1BCE5;
+	font-size : 15pt;
+	height:100px;
+	width:100%;
+	border:1px solid #ccc;
+	font:Arial,;
+	overflow:auto;
+}
+
+.resultstable tr:hover{
+	color:#2E5C9D;
+	background-color:white;
+}
+

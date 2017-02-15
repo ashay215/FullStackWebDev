@@ -1,0 +1,218 @@
+<application>
+	<genres>
+		<genre>Animated</genre>
+		<genre>Drama</genre>
+		<genre>Action</genre>
+		<genre>Thriller</genre>
+		<genre>Comedy</genre>
+		<genre>Romance</genre>
+	</genres>
+	<actions>
+		<action>Watched</action>
+		<action>Liked</action>
+		<action>Disliked</action>
+		<action>Rated</action>
+	</actions>
+	<movies>
+		<movie>
+			<title>How to Train Your Dragon</title>
+			<director>Dean DeBlois</director>
+			<writers>
+				<writer>Dean DeBlois</writer>
+				<writer>William Davies</writer>
+				<writer>Chris Sanders</writer>
+			</writers>
+			<year>2010</year>
+			<genre>Animated</genre>
+			<description>A hapless young Viking who aspires to hunt dragons becomes the unlikely friend of a young dragon himself, and learns there may be more to the creatures than he assumed.</description>
+			<rating></rating>
+			<actors>
+				<actor>Jay Baruchel</actor>
+				<actor>Gerard Butler</actor>
+			</actors>
+		</movie>
+		<movie>
+			<title>12 Years a Slave</title>
+			<director>Steve McQueen</director>
+			<writers>
+				<writer>Solomon Northup</writer>
+				<writer>John Ridley</writer>
+			</writers>
+			<year>2013</year>
+			<genre>Drama</genre>
+			<description>In the antebellum United States, Solomon Northup, a free black man from upstate New York, is abducted and sold into slavery.</description>
+			<rating></rating>
+			<actors>
+				<actor>Chiwetel Ejiofor</actor>
+				<actor>Michael Fassbender</actor>
+			</actors>
+		</movie>
+		<movie>
+			<title>Sleepless In Seattle</title>
+			<director>Nora Ephron</director>
+			<writers>
+				<writer>Nora Ephron</writer>
+				<writer>Jeff Arch</writer>
+			</writers>
+			<year>1993</year>
+			<genre>Romance</genre>
+			<description>A recently widowed man's son calls a radio talk-show in an attempt to find his father a partner.</description>
+			<rating></rating>
+			<actors>
+				<actor>Tom Hanks</actor>
+				<actor>Meg Ryan</actor>
+			</actors>
+		</movie>
+		<movie>
+			<title>Shutter Island</title>
+			<director>Martin Scorsese</director>
+			<writers>
+				<writer>Laeta Kalogridis</writer>
+				<writer>Dennis Lehane</writer>
+			</writers>
+			<year>2010</year>
+			<genre>Thriller</genre>
+			<description>In 1954, a U.S. marshal investigates the disappearance of a murderess who escaped from a hospital for the criminally insane.</description>
+			<rating></rating>
+			<actors>
+				<actor>Leonardo DiCaprio</actor>
+				<actor>Emily Mortimer</actor>
+				<actor>Mark Ruffalo</actor>
+			</actors>
+		</movie>
+		<movie>
+			<title>Monty Python and the Holy Grail</title>
+			<director>Terry Gilliam</director>
+			<writers>
+				<writer>Graham Chapman</writer>
+				<writer>John Cleese</writer>
+				<writer>Eric Idle</writer>
+				<writer>Terry Gilliam</writer>
+			</writers>
+			<year>1975</year>
+			<genre>Comedy</genre>
+			<description>King Arthur and his knights embark on a low-budget search for the Grail, encountering many, very silly obstacles.</description>
+			<rating>8.3</rating>
+			<actors>
+				<actor>Graham Chapman</actor>
+				<actor>John Cleese</actor>
+				<actor>Eric Idle</actor>
+			</actors>
+		</movie>
+		<movie>
+			<title>Dirty Rotten Scoundrels</title>
+			<director>Frank Oz</director>
+			<writers>
+				<writer>Dale Launer</writer>
+				<writer>Stanley Shapiro</writer>
+				<writer>Paul Henning</writer>
+			</writers>
+			<year>1988</year>
+			<genre>Comedy</genre>
+			<description>Two con men try to settle their rivalry by betting on who can swindle a young American heiress out of $50,000 first.</description>
+			<rating></rating>
+			<actors>
+				<actor>Steve Martin</actor>
+				<actor>Michael Caine</actor>
+				<actor>Glenne Headly</actor>
+			</actors>
+		</movie>
+	</movies>
+	<users>
+		<user>
+			<username>tester</username>
+			<password>test</password>
+			<fname>Testy</fname>
+			<lname>Tester</lname>
+			<following>
+				<username>jmiller</username>
+				<username>dkempe</username>
+			</following>
+			<feed>
+				<event>
+					<action>Liked</action>
+					<movie>Dirty Rotten Scoundrels</movie>
+					<rating></rating>
+				</event>
+				<event>
+					<action>Watched</action>
+					<movie>Dirty Rotten Scoundrels</movie>
+					<rating></rating>
+				</event>
+				<event>
+					<action>Disliked</action>
+					<movie>Shutter Island</movie>
+					<rating></rating>
+				</event>
+			</feed>
+		</user>
+		<user>
+			<username>jmiller</username>
+			<password>jmiller</password>
+			<fname>Jeffrey</fname>
+			<lname>Miller</lname>
+			<following>
+				<username>knguyen</username>
+			</following>
+			<feed>
+				<event>
+					<action>Rated</action>
+					<movie>Dirty Rotten Scoundrels</movie>
+					<rating>8</rating>
+				</event>
+			</feed>
+		</user>
+		<user>
+			<username>knguyen</username>
+			<password>knguyen</password>
+			<fname>Kien</fname>
+			<lname>Nguyen</lname>
+			<following>
+				<username>tester</username>
+				<username>jmiller</username>
+			</following>
+			<feed></feed>
+		</user>
+		<user>
+			<username>mshindler</username>
+			<password>mshindler</password>
+			<fname>Michael</fname>
+			<lname>Shindler</lname>
+			<following>
+				<username>acote</username>
+				<username>dkempe</username>
+			</following>
+			<feed>
+				<event>
+					<action>Liked</action>
+					<movie>Monty Python and the Holy Grail</movie>
+					<rating></rating>
+				</event>
+			</feed>
+		</user>
+		<user>
+			<username>acote</username>
+			<password>acote</password>
+			<fname>Aaron</fname>
+			<lname>Cote</lname>
+			<following>
+				<username>mshindler</username>
+				<username>knguyen</username>
+			</following>
+			<feed></feed>
+		</user>
+		<user>
+			<username>dkempe</username>
+			<password>dkempe</password>
+			<fname>David</fname>
+			<lname>Kempe</lname>
+			<following>
+				<username>mshindler</username>
+				<username>tester</username>
+				<username>acote</username>
+				<username>jmiller</username>
+			</following>
+			<feed></feed>
+		</user>
+	</users>
+</application>
