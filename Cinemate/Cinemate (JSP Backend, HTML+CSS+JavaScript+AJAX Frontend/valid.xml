@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><application>
+	<genres>
+		<genre>Animated</genre>
+		<genre>Drama</genre>
+		<genre>Action</genre>
+		<genre>Thriller</genre>
+		<genre>Comedy</genre>
+		<genre>Romance</genre>
+	</genres>
+	<actions>
+		<action>Watched</action>
+		<action>Liked</action>
+		<action>Disliked</action>
+		<action>Rated</action>
+	</actions>
+	<movies>
+		<movie>
+			<title>Big</title>
+			<director>Penny Marshall</director>
+			<image>https://images-na.ssl-images-amazon.com/images/M/MV5BNDk0OTM1Mzk3M15BMl5BanBnXkFtZTgwNDg2NjIyMDE@._V1_.jpg</image>
+			<writers>
+				<writer>Gary Ross</writer>
+				<writer>Anne Spielberg</writer>
+			</writers>
+			<year>1988</year>
+			<genre>Comedy</genre>
+			<description>After wishing to be made big, a teenage boy wakes the next morning to find himself mysteriously in the body of an adult.</description>
+			<rating-total>20</rating-total>
+			<rating-count>3</rating-count>
+			<actors>
+				<actor>
+				    <fname>Tom</fname>
+				    <lname>Hanks</lname>
+				    <image>https://images-na.ssl-images-amazon.com/images/M/MV5BMTQ2MjMwNDA3Nl5BMl5BanBnXkFtZTcwMTA2NDY3NQ@@._V1_SY1000_CR0,0,691,1000_AL_.jpg</image>    
+				</actor>
+				<actor>
+				    <fname>Elizabeth</fname>
+				    <lname>Perkins</lname>
+				    <image>https://images-na.ssl-images-amazon.com/images/M/MV5BMTY4MjQ3MDY5MF5BMl5BanBnXkFtZTcwMjI2MjgzNA@@._V1_.jpg</image>
+				</actor>
+			</actors>
+		</movie>
+		<movie>
+			<title>biG</title>
+			<director>Penny Marshall</director>
+			<image>https://images-na.ssl-images-amazon.com/images/M/MV5BNDk0OTM1Mzk3M15BMl5BanBnXkFtZTgwNDg2NjIyMDE@._V1_.jpg</image>
+			<writers>
+				<writer>Gary Ross</writer>
+				<writer>Anne Spielberg</writer>
+			</writers>
+			<year>1988</year>
+			<genre>Comedy</genre>
+			<description>After wishing to be made big, a teenage boy wakes the next morning to find himself mysteriously in the body of an adult.</description>
+			<rating-total/>
+			<rating-count/>
+			<actors>
+			    <actor>
+				    <fname>Tom</fname>
+				    <lname>Hanks</lname>
+				    <image>https://images-na.ssl-images-amazon.com/images/M/MV5BMTQ2MjMwNDA3Nl5BMl5BanBnXkFtZTcwMTA2NDY3NQ@@._V1_SY1000_CR0,0,691,1000_AL_.jpg</image>    
+				</actor>
+				<actor>
+				    <fname>Elizabeth</fname>
+				    <lname>Perkins</lname>
+				    <image>https://images-na.ssl-images-amazon.com/images/M/MV5BMTY4MjQ3MDY5MF5BMl5BanBnXkFtZTcwMjI2MjgzNA@@._V1_.jpg</image>
+				</actor>
+			</actors>
+		</movie>
+		<movie>
+			<title>How to Train Your Dragon</title>
+			<director>Dean DeBlois</director>
+			<image>https://images-na.ssl-images-amazon.com/images/M/MV5BMjA5NDQyMjc2NF5BMl5BanBnXkFtZTcwMjg5ODcyMw@@._V1_SY1000_CR0,0,672,1000_AL_.jpg</image>
+			<writers>
+				<writer>Dean DeBlois</writer>
+				<writer>William Davies</writer>
+				<writer>Chris Sanders</writer>
+			</writers>
+			<year>2010</year>
+			<genre>Animated</genre>
+			<description>A hapless young Viking who aspires to hunt dragons becomes the unlikely friend of a young dragon himself, and learns there may be more to the creatures than he assumed.</description>
+			<rating-total>11</rating-total>
+			<rating-count>3</rating-count>
+			<actors>
+			    <actor>
+				    <fname>Gerard</fname>
+				    <lname>Butler</lname>
+				    <image>https://images-na.ssl-images-amazon.com/images/M/MV5BMjE4NDMwMzc4Ml5BMl5BanBnXkFtZTcwMDg4Nzg4Mg@@._V1_.jpg</image>    
+				</actor>
+				<actor>
+				    <fname>Jay</fname>
+				    <lname>Baruchel</lname>
+				    <image>https://images-na.ssl-images-amazon.com/images/M/MV5BMTM5MjY0MzU0OV5BMl5BanBnXkFtZTcwOTE0NDA2NA@@._V1_SY1000_CR0,0,736,1000_AL_.jpg</image>
+				</actor>
+			</actors>
+		</movie>
+		<movie>
+			<title>12 Years a Slave</title>
+			<director>Steve McQueen</director>
+			<image>https://images-na.ssl-images-amazon.com/images/M/MV5BMjExMTEzODkyN15BMl5BanBnXkFtZTcwNTU4NTc4OQ@@._V1_.jpg</image>
+			<writers>
+				<writer>Solomon Northup</writer>
+				<writer>John Ridley</writer>
+			</writers>
+			<year>2013</year>
+			<genre>Drama</genre>
+			<description>In the antebellum United States, Solomon Northup, a free black man from upstate New York, is abducted and sold into slavery.</description>
+			<rating-total>29</rating-total>
+			<rating-count>3</rating-count>
+			<actors>
+			    <actor>
+				    <fname>Chiwetel</fname>
+				    <lname>Ejiofor</lname>
+				    <image>https://images-na.ssl-images-amazon.com/images/M/MV5BNzA5MDEyMTY3Nl5BMl5BanBnXkFtZTgwODQ0MjcxMDE@._V1_SY1000_CR0,0,716,1000_AL_.jpg</image>    
+				</actor>
+				<actor>
+				    <fname>Michael</fname>
+				    <lname>Fassbender</lname>
+				    <image>https://images-na.ssl-images-amazon.com/images/M/MV5BMTk0NjM2MTE5M15BMl5BanBnXkFtZTcwODIxMzcyNw@@._V1_SY1000_CR0,0,666,1000_AL_.jpg</image>
+				</actor>
+			</actors>
+		</movie>
+		<movie>
+			<title>Sleepless In Seattle</title>
+			<director>Nora Ephron</director>
+			<image>https://images-na.ssl-images-amazon.com/images/M/MV5BNzc0MDkwNjI0NF5BMl5BanBnXkFtZTgwMTY1MjEyMDE@._V1_.jpg</image>
+			<writers>
+				<writer>Nora Ephron</writer>
+				<writer>Jeff Arch</writer>
+			</writers>
+			<year>1993</year>
+			<genre>Romance</genre>
+			<description>A recently widowed man's son calls a radio talk-show in an attempt to find his father a partner.</description>
+			<rating-total/>
+			<rating-count/>
+			<actors>
+			    <actor>
+				    <fname>Tom</fname>
+				    <lname>Hanks</lname>
+				    <image>https://images-na.ssl-images-amazon.com/images/M/MV5BMTQ2MjMwNDA3Nl5BMl5BanBnXkFtZTcwMTA2NDY3NQ@@._V1_SY1000_CR0,0,691,1000_AL_.jpg</image>    
+				</actor>
+				<actor>
+				    <fname>Meg</fname>
+				    <lname>Ryan</lname>
+				    <image>https://images-na.ssl-images-amazon.com/images/M/MV5BMTgzOTI0NzI3OV5BMl5BanBnXkFtZTgwODIyMzUzMDI@._V1_.jpg</image>
+				</actor>
+			</actors>
+		</movie>
+		<movie>
+			<title>Shutter Island</title>
+			<director>Martin Scorsese</director>
+			<image>https://images-na.ssl-images-amazon.com/images/M/MV5BMTMxMTIyNzMxMV5BMl5BanBnXkFtZTcwOTc4OTI3Mg@@._V1_.jpg</image>
+			<writers>
+				<writer>Laeta Kalogridis</writer>
+				<writer>Dennis Lehane</writer>
+			</writers>
+			<year>2010</year>
+			<genre>Thriller</genre>
+			<description>In 1954, a U.S. marshal investigates the disappearance of a murderess who escaped from a hospital for the criminally insane.</description>
+			<rating-total>9</rating-total>
+			<rating-count>4</rating-count>
+			<actors>
+			    <actor>
+				    <fname>Leonardo</fname>
+				    <lname>DiCaprio</lname>
+				    <image>https://images-na.ssl-images-amazon.com/images/M/MV5BMjI0MTg3MzI0M15BMl5BanBnXkFtZTcwMzQyODU2Mw@@._V1_.jpg</image>    
+				</actor>
+				<actor>
+				    <fname>Emily</fname>
+				    <lname>Mortimer</lname>
+				    <image>https://images-na.ssl-images-amazon.com/images/M/MV5BMTM2NjIzMDg3NV5BMl5BanBnXkFtZTcwNDQ5MzczNA@@._V1_SY1000_CR0,0,661,1000_AL_.jpg</image>
+				</actor>
+				<actor>
+				    <fname>Mark</fname>
+				    <lname>Ruffalo</lname>
+				    <image>https://images-na.ssl-images-amazon.com/images/M/MV5BMTI5MjMwNjAzNF5BMl5BanBnXkFtZTcwMzkyNDg1Mw@@._V1_.jpg</image>
+				</actor>
+			</actors>
+		</movie>
+		<movie>
+			<title>Monty Python and the Holy Grail</title>
+			<director>Terry Gilliam</director>
+			<image>https://images-na.ssl-images-amazon.com/images/M/MV5BNmNmZjViNTQtNDQ5Mi00MDYzLWI5YWMtNDUyZGNmMGZhNDg4XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_.jpg</image>
+			<writers>
+				<writer>Graham Chapman</writer>
+				<writer>John Cleese</writer>
+				<writer>Eric Idle</writer>
+				<writer>Terry Gilliam</writer>
+			</writers>
+			<year>1975</year>
+			<genre>Comedy</genre>
+			<description>King Arthur and his knights embark on a low-budget search for the Grail, encountering many, very silly obstacles.</description>
+			<rating-total>50</rating-total>
+			<rating-count>5</rating-count>
+			<actors>
+			    <actor>
+				    <fname>Graham</fname>
+				    <lname>Chapman</lname>
+				    <image>https://images-na.ssl-images-amazon.com/images/M/MV5BMjAzODAyODc4NF5BMl5BanBnXkFtZTcwODY5MzAxMw@@._V1_SY1000_CR0,0,1367,1000_AL_.jpg</image>
+				</actor>
+				<actor>
+				    <fname>John</fname>
+				    <lname>Cleese</lname>
+				    <image>https://images-na.ssl-images-amazon.com/images/M/MV5BMTQ1MTIzMzM1MF5BMl5BanBnXkFtZTYwNjQ3ODI1._V1_.jpg</image>
+				</actor>
+				<actor>
+				    <fname>Eric</fname>
+				    <lname>Idle</lname>
+				    <image>https://images-na.ssl-images-amazon.com/images/M/MV5BNzY4NTQwNDA4M15BMl5BanBnXkFtZTYwNTg5Njcz._V1_.jpg</image>
+				</actor>
+			</actors>
+		</movie>
+		<movie>
+			<title>Dirty Rotten Scoundrels</title>
+			<director>Frank Oz</director>
+			<image>https://upload.wikimedia.org/wikipedia/en/2/2c/Dirty_rotten_scoundrels_film.jpg</image>
+			<writers>
+				<writer>Dale Launer</writer>
+				<writer>Stanley Shapiro</writer>
+				<writer>Paul Henning</writer>
+			</writers>
+			<year>1988</year>
+			<genre>Comedy</genre>
+			<description>Two con men try to settle their rivalry by betting on who can swindle a young American heiress out of $50,000 first.</description>
+			<rating-total/>
+			<rating-count/>
+			<actors>
+			    <actor>
+				    <fname>Steve</fname>
+				    <lname>Martin</lname>
+				    <image>https://images-na.ssl-images-amazon.com/images/M/MV5BNDY0ODYwNDM3OV5BMl5BanBnXkFtZTcwMTc3NjQzMg@@._V1_.jpg</image>
+				</actor>
+				<actor>
+				    <fname>Michael</fname>
+				    <lname>Caine</lname>
+				    <image>https://images-na.ssl-images-amazon.com/images/M/MV5BMjAwNzIwNTQ4Ml5BMl5BanBnXkFtZTYwMzE1MTUz._V1_.jpg</image>
+				</actor>
+				<actor>
+				    <fname>Glenne</fname>
+				    <lname>Headly</lname>
+				    <image>https://images-na.ssl-images-amazon.com/images/M/MV5BMTkzNjc2NzIwMl5BMl5BanBnXkFtZTcwMDM4MjAzMQ@@._V1_.jpg</image>
+				</actor>
+			</actors>
+		</movie>
+	</movies>
+	<users>
+		<user>
+			<username>tester</username>
+			<password>test</password>
+			<fname>Testy</fname>
+			<lname>Tester</lname>
+			<image>http://www-scf.usc.edu/~csci201/images/emma_lautz.jpg</image>
+			<following>
+				<username>jmiller</username>
+				<username>dkempe</username>
+			</following>
+			<feed>
+				<event>
+					<action>Liked</action>
+					<movie>Dirty Rotten Scoundrels</movie>
+					<rating/>
+				</event>
+				<event>
+					<action>Disliked</action>
+					<movie>Shutter Island</movie>
+					<rating/>
+				</event>
+			</feed>
+		</user>
+		<user>
+			<username>jmiller</username>
+			<password>jmiller</password>
+			<fname>Jeffrey</fname>
+			<lname>Miller</lname>
+			<image>http://www-scf.usc.edu/~csci201/images/jeffrey_miller.jpg</image>
+			<following>
+				<username>knguyen</username>
+			</following>
+			<feed>
+				<event>
+					<action>Rated</action>
+					<movie>Dirty Rotten Scoundrels</movie>
+					<rating>8</rating>
+				</event>
+			</feed>
+		</user>
+		<user>
+			<username>knguyen</username>
+			<password>knguyen</password>
+			<image>http://www-scf.usc.edu/~csci201/images/kien_nguyen.jpg</image>
+			<fname>Kien</fname>
+			<lname>Nguyen</lname>
+			<following>
+				<username>tester</username>
+				<username>jmiller</username>
+				<username>atu</username>
+			</following>
+			<feed/>
+		</user>
+		<user>
+			<username>mshindler</username>
+			<password>mshindler</password>
+			<fname>Michael</fname>
+			<lname>Shindler</lname>
+			<image>http://www-bcf.usc.edu/~shindler/michael_shindler.jpg</image>
+			<following>
+				<username>acote</username>
+				<username>dkempe</username>
+			</following>
+			<feed>
+				<event>
+					<action>Liked</action>
+					<movie>Monty Python and the Holy Grail</movie>
+					<rating/>
+				</event>
+			</feed>
+		</user>
+		<user>
+			<username>acote</username>
+			<password>acote</password>
+			<fname>Aaron</fname>
+			<lname>Cote</lname>
+			<image>http://www-bcf.usc.edu/~aaroncot/aaron.jpg</image>
+			<following>
+				
+				<username>knguyen</username>
+			<username>mshindler</username></following>
+			<feed/>
+		</user>
+		<user>
+			<username>jeff</username>
+			<password>jeff</password>
+			<fname>NotJeff</fname>
+			<lname>NotJeff</lname>
+			<image>http://www-scf.usc.edu/~csci201/images/jeffrey_vaudrin-mclean.jpg</image>
+			<following>
+				<username>mshindler</username>
+				<username>knguyen</username>
+				<username>atu</username>
+			</following>
+			<feed/>
+		</user>
+		<user>
+			<username>jeff1</username>
+			<password>jeff1</password>
+			<fname>Jeff</fname>
+			<lname>NotJeff</lname>
+			<image>http://www-scf.usc.edu/~csci201/images/jeffrey_vaudrin-mclean.jpg</image>
+			<following>
+				<username>mshindler</username>
+				<username>knguyen</username>
+			</following>
+			<feed>
+			    <event>
+					<action>Rated</action>
+					<movie>12 Years a Slave</movie>
+					<rating>10</rating>
+				</event>
+			</feed>
+		</user>
+		<user>
+			<username>jeff2</username>
+			<password>jeff2</password>
+			<fname>NotJeff</fname>
+			<lname>JEFF</lname>
+			<image>http://www-scf.usc.edu/~csci201/images/jeffrey_vaudrin-mclean.jpg</image>
+			<following>
+				<username>mshindler</username>
+				<username>knguyen</username>
+				<username>atu</username>
+			</following>
+			<feed/>
+		</user>
+		<user>
+			<username>dkempe</username>
+			<password>dkempe</password>
+			<fname>David</fname>
+			<lname>Kempe</lname>
+			<image>http://www-bcf.usc.edu/~dkempe/images/photo.jpg</image>
+			<following>
+				<username>mshindler</username>
+				<username>tester</username>
+				<username>acote</username>
+				<username>jmiller</username>
+				<username>atu</username>
+			</following>
+			<feed/>
+		</user>
+		<user>
+			<username>atu</username>
+			<password>atu</password>
+			<fname>Anthony</fname>
+			<lname>Tu</lname>
+			<image>http://www-scf.usc.edu/~csci201/images/anthony_tu.jpg</image>
+			<following>
+				<username>mshindler</username>
+				<username>acote</username>
+				<username>jmiller</username>
+				<username>jeff</username>
+				<username>jeff1</username>
+			</following>
+			<feed>
+			    <event>
+					<action>Watched</action>
+					<movie>Sleepless In Seattle</movie>
+					<rating/>
+				</event>
+			</feed>
+		</user>
+	</users>
+</application>
