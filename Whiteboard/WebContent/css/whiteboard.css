@@ -1,0 +1,500 @@
+/* line 5, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/**
+ * Colors
+ */
+/**
+ * Fonts
+ */
+/**
+ * Layout guides
+ */
+/**
+ * Breakpoints for mobile opt.
+ */
+/**
+ * Transition timings
+ */
+/* line 38, ../sass/partials/main.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+.logo {
+  transition: opacity 70ms ease-out;
+}
+
+/* line 48, ../sass/partials/main.scss */
+button,
+input,
+li {
+  transition: all 70ms ease-out !important;
+}
+
+/* line 54, ../sass/partials/main.scss */
+.wf-loading h1,
+.wf-loading h2,
+.wf-loading h3,
+.wf-loading h4,
+.wf-loading h5,
+.wf-loading h6,
+.wf-loading p,
+.wf-loading .logo {
+  opacity: 0 !important;
+}
+
+/* line 64, ../sass/partials/main.scss */
+.wf-loading button,
+.wf-loading input,
+.wf-loading li {
+  color: transparent !important;
+}
+
+/* line 70, ../sass/partials/main.scss */
+html {
+  background: white;
+}
+
+/* line 74, ../sass/partials/main.scss */
+body {
+  background: white;
+  font-family: "proxima-nova", Helvetica, Arial, sans-serif;
+  color: black;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  text-shadow: 0 0 0 rgba(255, 255, 255, 0.01);
+  -webkit-text-size-adjust: 100%;
+  min-width: 460px;
+}
+
+/* line 89, ../sass/partials/main.scss */
+body.fixed-header {
+  padding-top: 35px;
+}
+
+/* line 93, ../sass/partials/main.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 97, ../sass/partials/main.scss */
+a:hover, a:focus {
+  text-decoration: underline;
+}
+
+/* line 101, ../sass/partials/main.scss */
+wrapper.main {
+  max-width: 650px;
+  margin: 0 auto;
+  display: block;
+}
+
+/* line 107, ../sass/partials/main.scss */
+header {
+  background: #121314;
+  padding: 15px 16px;
+  text-align: center;
+  /* Left */
+  /* Right */
+}
+/* line 112, ../sass/partials/main.scss */
+header .header__wrapper {
+  max-width: 850px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0 auto;
+}
+/* line 122, ../sass/partials/main.scss */
+header .header__logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 50%;
+  height: 30px;
+}
+/* line 130, ../sass/partials/main.scss */
+header .logo-container__logo {
+  background-image: url("/Whiteboard/img/TextLogo-light.svg");
+  background-size: contain;
+  background-position: left center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+/* line 140, ../sass/partials/main.scss */
+header .header__navigation-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 50%;
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+/* line 149, ../sass/partials/main.scss */
+header .header__navigation-container li {
+  margin: 0 10px;
+  cursor: pointer;
+}
+/* line 154, ../sass/partials/main.scss */
+header .header__navigation-container .navigation__search {
+  font-size: 1.3em;
+  color: #00DB92;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+/* line 172, ../sass/partials/main.scss */
+.tabs {
+  width: 100%;
+  background: white;
+}
+/* line 176, ../sass/partials/main.scss */
+.tabs .tabs__wrapper {
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 32px 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+/* line 187, ../sass/partials/main.scss */
+.tabs h1 {
+  font-size: 2em;
+  font-weight: 800;
+  margin-right: 15px;
+}
+/* line 193, ../sass/partials/main.scss */
+.tabs .tabs__container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+/* line 199, ../sass/partials/main.scss */
+.tabs .tabs__container li {
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* line 207, ../sass/partials/main.scss */
+.tabs .tabs__container li .tab__button {
+  background: none;
+  font-size: 1.3em;
+  font-weight: 700;
+  border: none;
+  outline: none;
+  padding: 5px 15px;
+  border: 3px solid black;
+  border-radius: 30px;
+  letter-spacing: 0.03em;
+  transition: all 70ms ease-out;
+  cursor: pointer;
+}
+/* line 223, ../sass/partials/main.scss */
+.tabs .tabs__container li .tab__button:hover, .tabs .tabs__container li .tab__button:focus {
+  color: white;
+  background: black;
+}
+/* line 228, ../sass/partials/main.scss */
+.tabs .tabs__container li .tab__button--selected {
+  background: #00DB92;
+  color: white;
+  border-color: #00DB92;
+}
+/* line 234, ../sass/partials/main.scss */
+.tabs .tabs__container li .tab__button--selected:hover, .tabs .tabs__container li .tab__button--selected:focus {
+  background: #00f5a3;
+  border-color: #00f5a3;
+}
+
+/* line 242, ../sass/partials/main.scss */
+.error-message {
+  color: #db004d;
+}
+
+/* line 246, ../sass/partials/main.scss */
+.logo {
+  color: white;
+  font-size: 3em;
+  font-weight: 700;
+}
+
+/* line 252, ../sass/partials/main.scss */
+template {
+  display: none !important;
+}
+
+/* line 256, ../sass/partials/main.scss */
+a, a:hover, a:focus, a:active, a:visited {
+  color: #00DB92;
+}
+
+/* line 260, ../sass/partials/main.scss */
+footer {
+  background: white;
+  color: #737373;
+  font-size: 0.85em;
+  padding: 1em 16px;
+}
+
+/* line 3, ../sass/chat.scss */
+.chat {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background: white;
+  position: fixed;
+  bottom: 0;
+  right: 1vw;
+  width: 250px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  overflow: hidden;
+  box-shadow: -3px 0 3px rgba(0, 0, 0, 0.05);
+  transition: all 70ms ease-out;
+}
+/* line 23, ../sass/chat.scss */
+.chat .chat__header {
+  display: flex;
+  background: black;
+  color: white;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: all 70ms ease-out;
+}
+/* line 35, ../sass/chat.scss */
+.chat .chat__header h1 {
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 1.2em;
+}
+/* line 42, ../sass/chat.scss */
+.chat .chat__header:hover, .chat .chat__header:focus {
+  background: #1e2021;
+}
+/* line 46, ../sass/chat.scss */
+.chat .chat__scrollview {
+  padding: 15px;
+  box-sizing: border-box;
+  overflow: auto;
+  height: 300px;
+  transition: all 70ms ease-out;
+}
+/* line 55, ../sass/chat.scss */
+.chat .chat__message {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+/* line 61, ../sass/chat.scss */
+.chat .chat__message:last-child {
+  margin-bottom: 0;
+}
+/* line 65, ../sass/chat.scss */
+.chat .chat__message--sender {
+  font-weight: 600;
+  color: black;
+  margin-bottom: 0.1em;
+}
+/* line 71, ../sass/chat.scss */
+.chat .chat__message--message {
+  line-height: 1.2em;
+}
+/* line 75, ../sass/chat.scss */
+.chat .chat__input-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border-top: 1px solid #eee;
+  padding: 10px 15px;
+  box-sizing: border-box;
+}
+/* line 87, ../sass/chat.scss */
+.chat .chat__message-input {
+  background: white;
+  border: none;
+  font-size: 16px;
+  outline: none;
+  width: 100%;
+}
+/* line 95, ../sass/chat.scss */
+.chat .chat__message-send {
+  background: none;
+  border: none;
+  outline: none;
+  padding: 0;
+  color: #00DB92;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-left: 15px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: color 70ms ease-out;
+}
+/* line 110, ../sass/chat.scss */
+.chat .chat__message-send:hover, .chat .chat__message-send:focus {
+  color: #00f5a3;
+}
+
+/* line 117, ../sass/chat.scss */
+.chat--collapsed .chat__scrollview {
+  height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/* line 6, ../sass/whiteboard.scss */
+body, html {
+  background: #eee;
+  overflow: hidden;
+}
+
+/* line 11, ../sass/whiteboard.scss */
+.whiteboard {
+  position: relative;
+  overflow: hidden;
+}
+/* line 15, ../sass/whiteboard.scss */
+.whiteboard .whiteboard__canvas-wrapper {
+  overflow: auto;
+}
+/* line 19, ../sass/whiteboard.scss */
+.whiteboard #whiteboard__canvas {
+  background: #eee;
+}
+/* line 23, ../sass/whiteboard.scss */
+.whiteboard .whiteboard__toolbar-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  width: 50px;
+  height: 300px;
+  background: white;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.05);
+  border-radius: 25px;
+  padding: 5px 0;
+}
+/* line 42, ../sass/whiteboard.scss */
+.whiteboard .toolbar__color {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+  border: none;
+  outline: none;
+  background: white;
+  cursor: pointer;
+}
+/* line 53, ../sass/whiteboard.scss */
+.whiteboard .toolbar__color--selected {
+  border: 3px solid #E5DE50;
+  box-shadow: none;
+}
+/* line 58, ../sass/whiteboard.scss */
+.whiteboard .toolbar__color--red {
+  background: #DB0060;
+}
+/* line 62, ../sass/whiteboard.scss */
+.whiteboard .toolbar__color--orange {
+  background: #F0712B;
+}
+/* line 66, ../sass/whiteboard.scss */
+.whiteboard .toolbar__color--green {
+  background: #00DB92;
+}
+/* line 70, ../sass/whiteboard.scss */
+.whiteboard .toolbar__color--blue {
+  background: #0079DB;
+}
+/* line 74, ../sass/whiteboard.scss */
+.whiteboard .toolbar__color--black {
+  background: black;
+}
+
+.logout
+{
+	transition: all 70ms ease-out !important;
+	    font-size: 1.3em;
+    color: #00DB92;
+    background: none;
+    border: none;
+    outline: none;
+}

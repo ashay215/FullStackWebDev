@@ -1,0 +1,266 @@
+@import "compass/reset";
+
+/**
+ * Colors
+ */
+$accentColor: #00DB92;
+$accentColorDark: #00DC90;
+
+$secondaryTextColor: rgb(115, 115, 115);
+$errorTextColor: #db004d;
+
+$backgroundColor: #121314;
+$lightBackgroundColor: #eee;
+
+/**
+ * Fonts
+ */
+$fontFamily: "proxima-nova", Helvetica, Arial, sans-serif;
+
+/**
+ * Layout guides
+ */
+$sideMargins: 16px;
+
+/**
+ * Breakpoints for mobile opt.
+ */
+$smallDeviceBreakpoint: 735px;
+$largeDeviceBreakpoint: 1050px;
+
+/**
+ * Transition timings
+ */
+$transitionTime: 70ms;
+
+$maxBodyWidth: 850px;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+.logo {
+	transition: opacity $transitionTime ease-out;
+}
+button,
+input,
+li {
+	transition: all $transitionTime ease-out !important;
+}
+
+.wf-loading h1,
+.wf-loading h2,
+.wf-loading h3,
+.wf-loading h4,
+.wf-loading h5,
+.wf-loading h6,
+.wf-loading p,
+.wf-loading .logo {
+	opacity: 0 !important;
+}
+.wf-loading button,
+.wf-loading input,
+.wf-loading li {
+	color: transparent !important;
+}
+
+html {
+	background: white;
+}
+
+body {
+	background: white;
+
+	font-family: $fontFamily;
+	color: black;
+
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	text-shadow: 0 0 0 rgba(255, 255, 255, 0.01);
+
+	-webkit-text-size-adjust: 100%;
+
+	min-width: 460px;
+}
+
+body.fixed-header {
+	padding-top: 35px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover, a:focus {
+	text-decoration: underline;
+}
+
+wrapper.main {
+	max-width: 650px;
+	margin: 0 auto;
+	display: block;
+}
+
+header {
+	background: $backgroundColor;
+	padding: 15px $sideMargins;
+	text-align: center;
+
+	.header__wrapper {
+		max-width: $maxBodyWidth;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: flex-start;
+		margin: 0 auto;
+	}
+
+	/* Left */
+	.header__logo-container {
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+		width: 50%;
+		height: 30px;
+	}
+
+	.logo-container__logo {
+		background-image: url("/Whiteboard/img/TextLogo-light.svg");
+		background-size: contain;
+		background-position: left center;
+		background-repeat: no-repeat;
+		width: 100%;
+		height: 100%;
+	}
+
+	/* Right */
+	.header__navigation-container {
+		display: flex;
+		align-items: center;
+		justify-content: flex-end;
+		width: 50%;
+		color: white;
+		font-weight: 600;
+		text-transform: uppercase;
+
+		li {
+			margin: 0 10px;
+			cursor: pointer;
+		}
+
+		.navigation__search {
+			font-size: 1.3em;
+			color: $accentColor;
+			background: none;
+			border: none;
+			outline: none;
+		}
+	}
+
+	@media (max-width: $largeDeviceBreakpoint) {
+		
+	}
+
+	@media (max-width: $smallDeviceBreakpoint) {
+		
+	}
+}
+
+.tabs {
+	width: 100%;
+	background: white;
+
+	.tabs__wrapper {
+		max-width: $maxBodyWidth;
+		margin: 0 auto;
+		padding: $sideMargins*2 $sideMargins;
+
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: flex-start;
+	}
+
+	h1 {
+		font-size: 2em;
+		font-weight: 800;
+		margin-right: 15px;
+	}
+
+	.tabs__container {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: flex-start;
+
+		li {
+			margin: 0 10px;
+			
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			
+			
+			.tab__button {
+				background: none;
+				font-size: 1.3em;
+				font-weight: 700;
+				border: none;
+				outline: none;
+				padding: 5px 15px;
+				border: 3px solid black;
+				border-radius: 30px;
+				letter-spacing: 0.03em;
+
+				transition: all $transitionTime ease-out;
+
+				cursor: pointer;
+			}
+
+			.tab__button:hover, .tab__button:focus {
+				color: white;
+				background: black;
+			}
+
+			.tab__button--selected {
+				background: $accentColor;
+				color: white;
+				border-color: $accentColor;
+			}
+
+			.tab__button--selected:hover, .tab__button--selected:focus {
+				background: lighten($accentColor, 5%);
+				border-color: lighten($accentColor, 5%);
+			}
+		}
+	}
+}
+
+.error-message {
+	color: $errorTextColor;
+}
+
+.logo {
+	color: white;
+	font-size: 3em;
+	font-weight: 700;
+}
+
+template {
+	display: none !important;
+}
+
+a, a:hover, a:focus, a:active, a:visited {
+	color: $accentColor;
+}
+
+footer {
+	background: white;
+	color: $secondaryTextColor;
+	font-size: 0.85em;
+
+	padding: 1em $sideMargins;
+}

@@ -1,0 +1,122 @@
+@import "partials/main.scss";
+
+.chat {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+
+	background: white;
+
+	position: fixed;
+	bottom: 0;
+	right: 1vw;
+	width: 250px;
+
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	overflow: hidden;
+	
+	box-shadow: -3px 0 3px rgba(0,0,0,0.05);
+
+	transition: all $transitionTime ease-out;
+
+	.chat__header {
+		display: flex;
+
+		background: black;
+		color: white;
+
+		padding: 10px 15px;
+
+		cursor: pointer;
+
+		transition: all $transitionTime ease-out;
+
+		h1 {
+			font-weight: 800;
+			text-transform: uppercase;
+			font-size: 1.2em;
+		}
+	}
+
+	.chat__header:hover, .chat__header:focus {
+		background: lighten($backgroundColor, 5%);
+	}
+
+	.chat__scrollview {
+		padding: 15px;
+		box-sizing: border-box;
+
+		overflow: auto;
+		height: 300px;
+		transition: all $transitionTime ease-out;
+	}
+
+	.chat__message {
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 10px;
+	}
+
+	.chat__message:last-child {
+		margin-bottom: 0;
+	}
+
+	.chat__message--sender {
+		font-weight: 600;
+		color: black;
+		margin-bottom: 0.1em;
+	}
+
+	.chat__message--message {
+		line-height: 1.2em;
+	}
+
+	.chat__input-container {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+
+		width: 100%;
+		border-top: 1px solid #eee;
+		padding: 10px 15px;
+		box-sizing: border-box;
+	}
+
+	.chat__message-input {
+		background: white;
+		border: none;
+		font-size: 16px;
+		outline: none;
+		width: 100%;
+	}
+
+	.chat__message-send {
+		background: none;
+		border: none;
+		outline: none;
+		padding: 0;
+		color: $accentColor;
+		font-weight: 800;
+		text-transform: uppercase;
+		margin-left: 15px;
+		font-size: 16px;
+		cursor: pointer;
+
+		transition: color $transitionTime ease-out;
+	}
+
+	.chat__message-send:hover, .chat__message-send:focus {
+		color: lighten($accentColor, 5%);
+	}
+
+}
+
+.chat--collapsed {
+	.chat__scrollview {
+		height: 0;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+}

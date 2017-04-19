@@ -1,0 +1,152 @@
+@import "partials/main.scss";
+
+.upload-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+	margin-bottom: 25px;
+
+	background: $lightBackgroundColor;
+	border-radius: 5px;
+	overflow: hidden;
+	padding: 15px;
+	width: 100%;
+	box-sizing: border-box;
+	max-width: 550px;
+
+	box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+
+	h1 {
+		font-size: 2em;
+		font-weight: 800;
+		margin-bottom: 10px;
+	}
+
+	form {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+
+		input {
+			font-family: $fontFamily !important;
+		}
+
+		input[type="submit"] {
+			background: $accentColor;
+			color: white;
+			font-weight: 800;
+			font-size: 1.2em;
+			padding: 0 15px;
+			height: 30px;
+			border-radius: 15px;
+			border: none;
+			outline: none;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			cursor: pointer;
+
+			transition: all $transitionTime ease-out;
+		}
+
+		input[type="submit"]:hover, input[type="submit"]:focus {
+			background: lighten($accentColor, 5%);
+		} 
+	}
+}
+
+.documents-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+	max-width: $maxBodyWidth;
+	margin: 0 auto;
+}
+
+.document {
+	$dim: 190px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: $lightBackgroundColor;
+	flex-shrink: 0;
+	border-radius: 5px;
+	overflow: hidden;
+	width: $dim;
+	height: $dim;
+	text-decoration: none !important;
+
+	margin: 10px 10px;
+	transition: all $transitionTime ease-out;
+
+	box-shadow: 0 3px 3px rgba(0,0,0,0.1);
+	position: relative;
+
+	.document__remove-button {
+		position: absolute;
+		right: 0;
+		top: 0;
+		width: 30px;
+		height: 30px;
+		background: $accentColor;
+		color: white;
+		font-weight: 800;
+		font-size: 1.3em;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-bottom-left-radius: 5px;
+		border: none;
+		outline: none;
+		cursor: pointer;
+
+		transition: all $transitionTime ease-out;
+	}
+
+	.document__remove-button:hover, .document__remove-button:focus {
+		background: $errorTextColor;
+	}
+}
+
+.document:hover, .document:focus {
+	background-color: darken($lightBackgroundColor, 5%);
+
+	.document__timestamp {
+		background: lighten($backgroundColor, 5%);
+	}
+}
+
+.document__title {
+	font-size: 1.2em;
+	display: flex;
+	height: 100%;
+	flex-grow: 1;
+	align-items: center;
+	justify-content: center;
+	font-weight: 800;
+	text-align: center;
+	padding: 15px;
+	word-break: break-all;
+	text-overflow: ellipsis;
+	text-decoration: none !important;
+}
+
+.document__timestamp {
+	padding: 15px;
+	background: black;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: 600;
+	flex-grow: 0;
+	flex-shrink: 0;
+	width: 100%;
+
+	transition: all $transitionTime ease-out;
+}

@@ -1,0 +1,48 @@
+@CHARSET "UTF-8";
+
+#courseheader {
+	margin-top: 4%;
+	font-size: 200%;
+	text-align: center;
+	text-decoration: underline;
+	margin-bottom: 4%;
+	font-weight: bold;
+}
+
+#courselist {
+	margin: auto;
+	align: center;
+}
+
+#note {
+	text-align: center;
+	font-style: italic;
+}
+
+td {
+	padding: 5%;
+	margin: 20%;
+	padding-left: 35%;
+	padding-right: 35%;
+	font-size: 150%;
+    font-weight: bold;
+}
+
+#add {
+	background:none;
+ 	border:none;
+ 	font-size: 90%;
+ 	color: #00DB92;
+}
+
+tr:nth-child(even) {
+	margin: auto;
+    background-color: grey;
+    color: #00DB92;
+}
+
+tr:nth-child(odd) {
+	margin: auto;
+    background-color: #dddddd;
+    color: #00DB92;
+}

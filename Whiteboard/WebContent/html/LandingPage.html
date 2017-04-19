@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+	<title>Whiteboard</title>
+	
+	<script src="https://use.typekit.net/ofv3bwh.js"></script>
+	<script>try{Typekit.load({ async: true });}catch(e){}</script>
+	
+	<link rel="stylesheet" href = "../css/main.css">
+	<link href="../css/font-awesome.css" rel="stylesheet" type="text/css">
+	<link href="../css/whiteboard.css" rel="stylesheet" type="text/css">
+	
+	<script type="text/javascript">
+		function guestredirect(){
+			window.location = '../GuestServlet';
+		}			  
+	</script>
+	
+</head>
+<body ontouchstart>
+	<header>
+		<div class="header__wrapper">
+				<div class="header__logo-container">
+					<a class="logo-container__logo" href="../html/LandingPage.html"></a>
+				</div>
+			</div>
+	</header>
+	<div id = "landing-header">	</div>
+	<div id = "landing-footer"></div>
+	<div id = "central-landing-pane">
+		<div id = "virtual-classroom-header">
+			<div><text style="width: 80%; font-weight: bold; font-size:40px; margin-bottom:100cm;">Your Virtual Classroom</text></div>
+			<a class = "sign-button" href = "/Whiteboard/jsp/registration.jsp">Join For Free</a>
+			<a class = "sign-button" href = "/Whiteboard/jsp/loginpage.jsp">Login</a>
+			<button class="sign-button" type="submit" name="login" onclick="guestredirect()">Guest Access</button>
+			
+		</div>
+		<!-- <div id = "content-pane" style = "float:left; height:150px; width:150px;">This is an image</div>
+		<div id = "content-pane" style = "float:right;height:150px;width:150px;">This is some text</div>
+	 	-->
+	</div>
+</body>
+</html>

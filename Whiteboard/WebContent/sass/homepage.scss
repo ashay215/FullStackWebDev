@@ -1,0 +1,84 @@
+@import "partials/main.scss";
+
+.main-wrapper {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: flex-start;
+
+	max-width: $maxBodyWidth;
+	margin: 30px auto;
+}
+
+.content {
+	width: 100%;
+
+	h1 {
+		font-size: 2em;
+		font-weight: 800;
+		margin-bottom: 30px;
+	}
+
+	.feed-container {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.feed-element {
+		background: $lightBackgroundColor;
+
+		font-size: 1.2em;
+		border-radius: 10px;
+		margin-bottom: 15px;
+		padding: 15px;
+
+		.feed-element__username {
+
+		}
+	}
+}
+
+.sidebar {
+	display: flex;
+	flex-direction: column;
+	width: 250px;
+	margin-left: 15px;
+	padding: 15px;
+	flex-shrink: 0;
+
+	background: $lightBackgroundColor;
+	border-radius: 10px;
+
+	.sidebar__container {
+		margin-bottom: 30px;
+
+		h1 {
+			font-weight: 800;
+			font-size: 1.5em;
+			margin-bottom: 10px;
+		}
+	}
+	.sidebar__container:last-child {
+		margin-bottom: 0;
+	}
+}
+
+.notif-in-list {
+	height: 80px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    background: $lightBackgroundColor;
+}
+
+.notif-title {
+	font-size: 20px;
+	position: relative;
+	top: 15px;
+	left: 5px;
+	font-color: #000000;
+	cursor: pointer;
+	color:black;
+}
+
+

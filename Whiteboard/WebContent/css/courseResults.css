@@ -1,0 +1,44 @@
+@CHARSET "UTF-8";
+
+#course {
+	background-color: white;
+	margin: 5%;
+	padding: 4%;
+	border-radius: 25px;
+	border:3px solid black;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 110%;
+	align: center;
+	width: 30%;
+	padding-top: 2%;
+}
+
+#results {
+	margin-top: 4%;
+	font-size: 200%;
+	text-align: center;
+	text-decoration: underline;
+}
+
+#courseName {
+	margin:0px;
+	font-size: 170%;
+	padding-bottom: 1%;
+	float:left;
+	color: #00DB92;
+}
+
+#add {
+	float: right;
+	margin: auto;
+	font-size: 200%;
+	padding: 0%;
+	color: black;
+	width: 10%;
+}
+
+#error {
+	margin-left: auto;
+	margin-right: auto;
+}
