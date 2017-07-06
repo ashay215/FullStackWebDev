@@ -1,0 +1,4 @@
+ipaddress:localhost
+db:vipinkum_cinemate
+user:root
+password:root

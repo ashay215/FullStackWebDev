@@ -1,0 +1,208 @@
+@CHARSET "ISO-8859-1";
+
+body{
+	background-color:#A1BCE5;
+	text-align: center;
+}
+
+#toptitle {
+	margin-right:20%;
+	font-family:verdana;
+	font-style: italic;
+	font-style:bold;
+	font-size: 30px;
+	color: white;
+	text-shadow: 3px 3px rgba(0,0,0,0.3);
+	display: inline-block;
+}
+
+#toptext {
+	text-align: center;
+	font-family: Times New Roman;
+	font-size: 100%;
+	color: white;
+	font-style: normal;
+}
+
+#middle {
+	background-color: #2E5C9D;
+	height: 70%;
+	width : 100%;
+	text-align:center;
+}
+
+#centerbox {
+	background-color: #4973B0;
+	padding: 3%;
+	margin: 40px;
+	width: 30%;
+	height: 40%;
+	margin-left: auto ;
+  	margin-right: auto ;
+  	color: white;
+}
+
+input[type="text"] {
+	width: 100%;
+}
+
+input[type="submit"]{
+	padding:5px; 
+    border:2px;     
+    border-radius: 5px;
+}
+
+a{
+	color:#ffffff;
+	text-decoration:none
+}
+a:hover {
+    color: #2E5C9D;
+}
+
+.titlehover a{
+	color: #3A5288;
+}
+.titlehover a:hover{
+	color:white;
+}
+
+.image-page{
+   	height: 100px;
+    width: 100px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+}
+.image-bar{
+	height: 50px;
+    width: 50px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+}
+
+#profiletop {
+	background-color: #2E5C9D;
+	text-align: center;
+	color:white;
+}
+
+#profilemiddle{
+	text-align:center;
+	color:white;
+	font-size:20pt;
+}
+
+#follows{
+	text-align:center;
+	width:100%;
+}
+
+#scrollbox {
+	background-color:#A1BCE5;
+	font-size : 15pt;
+	height:200px;
+	width:300px;
+	border:1px solid #ccc;
+	font:Arial;
+	overflow:auto;
+	margin-left: auto ;
+  	margin-right: auto ;
+}
+
+.resultstable tr:hover{
+	color:#2E5C9D;
+	background-color:white;
+}
+
+.menubar{
+	background-color:#3A5288;
+	/*position: fixed; /* Set the navbar to fixed position */
+   	top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    display:inline-block;
+    padding:5px;
+}
+
+.menubar img{
+	height:35px;
+	width:35px;
+	padding-right:10px;
+}
+
+#feedtable {
+	border-style: solid;
+	border-width: 5px;
+	border-color: #3A5288;
+	border-top-style: none;
+	background-color:#749ACA
+	
+}
+
+.menubar a {
+	display:inline-block"
+}
+
+#movie_rating_container {
+	padding-left: 325px; 
+}
+
+/* #average_movie_rating CSS sourced from: https://css-tricks.com/star-ratings/ */
+#imdb_movie_rating {
+	float: left;
+	unicode-bidi: bidi-override;
+	position: absolute;
+}
+
+#imdb_movie_rating > span {
+	display: inline-block;
+	position: relative;
+	font-size: 40px;
+	width: 1em;
+	color: #ff80ff;
+}
+
+#average_movie_rating {
+	float: left;
+	unicode-bidi: bidi-override;
+	position: absolute;
+}
+
+#average_movie_rating > span {
+	display: inline-block;
+	position: relative;
+	font-size: 40px;
+	width: 1em;
+	color: #E4BB24;
+}
+
+#average_movie_rating:hover {
+	visibility: hidden;
+}
+
+/* #user_movie_rating CSS sourced from: https://css-tricks.com/star-ratings/ */
+#user_movie_rating {
+	float: left;
+	unicode-bidi: bidi-override;
+	direction: rtl;
+	position: absolute;
+}
+#user_movie_rating > span {
+	display: inline-block;
+	position: relative;
+	font-size: 40px;
+	width: 1em;
+	color: #222;
+}
+
+#user_movie_rating > span:hover:before,
+#user_movie_rating > span:hover ~ span:before {
+	content: "\2605";
+	position: absolute;
+	color: #E4BB24;
+}
