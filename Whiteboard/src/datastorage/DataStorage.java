@@ -24,7 +24,7 @@ public class DataStorage {
 	{
 		try {
 			new com.mysql.jdbc.Driver();
-			conn = DriverManager.getConnection("jdbc:mysql://192.241.193.125/Whiteboard?user=root&password=21d7BIiQypvrDu7Bcbvb&useSSL=false");
+			conn = DriverManager.getConnection("jdbc:mysql://IP_ADDRESS/Whiteboard?user=root&password=PASSWORD&useSSL=false");
 	        java.sql.Statement stmt = conn.createStatement();
 	        ResultSet rs;
 	        rs = stmt.executeQuery("SELECT * FROM Users");
